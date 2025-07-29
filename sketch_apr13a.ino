@@ -1,6 +1,6 @@
 void cirArea() {
 
-  int r = 10;
+  int r = 8;
   float area = 3.14 * r * r;
   Serial.println(area);
 }
@@ -11,5 +11,5 @@ void setup() {
 
 void loop() {
   cirArea();//執行程式
-  delay(1000);
+  delay(500));
 }
